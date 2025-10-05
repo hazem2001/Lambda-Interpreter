@@ -28,7 +28,7 @@ Lambda class has all the methods:
 4) **`eta`, `eta:steps`**
 
 How to run: 
-<pre> ``` gst a2.st lambda.st - ``` </pre>
+<pre> gst a2.st lambda.st -  </pre>
 
 Example:
 <pre> ``` x := LambdaParser parse: '(^x. ^y. (x y z x)) ((^z . z) x) (^y. y) r'. 
