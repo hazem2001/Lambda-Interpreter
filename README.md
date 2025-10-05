@@ -1,7 +1,7 @@
 # Lambda Reducer in Smalltalk
 
 ## Overview
-This project implements a **λ-calculus reducer in GNU Smalltalk**, 
+This project implements a **λ-calculus reducer in GNU Smalltalk**.
 Given a parser and a class for Lambda expressions in `lambda.st`, we are to create an implementation for the evaluation and reduction of Lambda expressions.
 
 The implementation provides:
