@@ -13,8 +13,8 @@ The implementation provides:
 
 ## Features
 - **`toDeBruijn`** – converts λ-expressions to de Bruijn form 
-- **`aoe`, `aoe:steps`** – performs applicative-order (call-by-value) reductions, where `aoe` performs only a single step
-- **`nor`, `nor:steps`** – performs normal-order (call-by-name) reductions, where `nor` performs only a single step
+- **`aoe`, `aoe:steps`** – performs applicative-order (call-by-value) reductions, where `aoe` performs only a single step.
+- **`nor`, `nor:steps`** – performs normal-order (call-by-name) reductions, where `nor` performs only a single step.
 - **`eta`, `eta:steps`** – performs η-reduction when applicable, where `eta` performs only a single step.
 - Correct handling of substitution in lambda calculus.
 
@@ -33,7 +33,9 @@ How to run:
 Example:
 <pre>  x := LambdaParser parse: '(^x. ^y. (x y z x)) ((^z . z) x) (^y. y) r'. 
   l := Lambda new: x. 
-  l aoe.  </pre>
+  l aoe.
+  l aoe: 2
+</pre>
 
 
 
